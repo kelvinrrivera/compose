@@ -186,13 +186,6 @@ x-shared-env: &shared-api-worker-env
   CODE_MAX_NUMBER_ARRAY_LENGTH: ${CODE_MAX_NUMBER_ARRAY_LENGTH:-1000}
   SSRF_PROXY_HTTP_URL: ${SSRF_PROXY_HTTP_URL:-http://ssrf_proxy:3128}
   SSRF_PROXY_HTTPS_URL: ${SSRF_PROXY_HTTPS_URL:-http://ssrf_proxy:3128}
-  # Nuevas variables para la Edición Enterprise
-  EDITION: ${EDITION:-ENTERPRISE}
-  ENTERPRISE_ENABLED: ${ENTERPRISE_ENABLED:-true}
-  CAN_REPLACE_LOGO: ${CAN_REPLACE_LOGO:-true}
-  CONSOLE_URL: ${CONSOLE_URL:-https://console.kelvinscale.net}
-  ENTERPRISE_API_URL: ${ENTERPRISE_API_URL:-https://api.kelvinscale.net}
-  ENTERPRISE_API_SECRET_KEY: ${ENTERPRISE_API_SECRET_KEY:-sk-9f73s3ljTXVcMT3Blb3ljTqtsKiGHXVcMT3BlbkFJLK7U}
 
 
 services:

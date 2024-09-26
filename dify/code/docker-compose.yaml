@@ -193,6 +193,7 @@ x-shared-env: &shared-api-worker-env
   CUSTOM_LOGO_URL: ${CUSTOM_LOGO_URL:-https://iili.io/dLDSQ4I.png}
   ENABLE_LOGGEDIN_USER_ONLY: ${ENABLE_LOGGEDIN_USER_ONLY:-true}
   INVITE_ENABLED: ${INVITE_ENABLED:-true}
+  CONSOLE_URL: ${CONSOLE_URL:-https://console.kelvinscale.net}
 
 services:
   # API service

@@ -237,6 +237,7 @@ services:
       APP_API_URL: ${APP_API_URL:-}
       SENTRY_DSN: ${WEB_SENTRY_DSN:-}
       NEXT_TELEMETRY_DISABLED: ${NEXT_TELEMETRY_DISABLED:-0}
+      CUSTOM_CSS=".flex.items-center.justify-end.w-full { display: none !important; }"
 
   # The postgres database.
   db:
